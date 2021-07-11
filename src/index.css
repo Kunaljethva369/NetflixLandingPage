@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue',Helvetica,Arial,sans-serif';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+select:focus {
+    outline: none;
+}
+
+.container-fluid {
+    background: black;
+    color: #fff;
+}
+.commonheader{
+    display: flex;
+    margin: auto 0px;
+}
+.row-sections{
+    padding: 50px 40px;
+}
+@media only screen and (min-width:200px) and (max-width:600px) {
+    .row-sections{
+        padding: 40px 0px !important;
+    }
+}
